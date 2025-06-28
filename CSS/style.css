@@ -53,6 +53,7 @@
     color: #29274E;
     font-size: 1rem;
     margin-top: 10px;
+    text-align: justify;
 }
 
 .index-h1{
@@ -66,14 +67,12 @@
 .content-index-header{
     display: flex;
     flex-direction: column;
-    margin-left: 1rem;
-    margin-right: 1rem;
     max-width: 40rem;
 }
 
 
 .fotoperfil{
-    width: 93%;
+    width: 100%;
     max-width: 40rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -86,6 +85,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
    
 }
 
@@ -162,30 +163,39 @@
     background-repeat: no-repeat;
     background-repeat: fixed;
     background-size: cover;
-    height: 95vh;
+    height: 100%;
 }
+
 .text-vision{
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    text-align: justify;
+    margin-top: 10px;
 }
 .visionimg{
-    width: 30rem;
+    width: 100%;
+    max-width: 40rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
 }
 
 .vision-content{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    height: 95vh;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    height: 100%;
 
 }
 
 .vision-text-content{
-   margin-left: 100px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   max-width: 40rem;
 }
-
-
 
 
 
@@ -195,7 +205,7 @@
     background-repeat: no-repeat;
     background-repeat: fixed;
     background-size: cover;
-    height: 35vh;
+    height: 100%;
 }
 
 .título-footer-index{
@@ -213,34 +223,36 @@
 
 .index-footer-text{
     color: #ffffff;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 10px;
 }
 
 .index-footer-content{
     display: flex;
-    flex-direction: row;
-    height: 20vh;
+    flex-direction: column;
+    padding-top: 30px;
 }
 
 .work-together-content{
    display: flex;
    flex-direction: column;
-   margin-left: 100px;
-   margin-top: 20px;
-   width: 30%;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   margin-top: 10px;
+   max-width: 40rem;
 }
 
 .index-footer-nav-content{
     display: flex;
     flex-direction: row;
-    align-content: right;
-    justify-content: end;
+    align-content: center;
+    justify-content: space-around;
 }
 
 .index-footer-nav li a{
     color: #989FCB;
     text-decoration: none;
+    list-style: none;
     font-size: 1rem;
 }
 
@@ -248,7 +260,8 @@
     color: #ffffff;
     font-size: 1rem;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -256,25 +269,38 @@
 
 .títulos-pages{
     color: #A40234;
-    font-size: 4rem;
+    font-size: 2.5rem;
     font-family: "Faculty Glyphic", sans-serif;
     text-align: left;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.nav-pages {
+    margin-top: 30px;
+    text-align: center;
+}
+.nav-pages a {
+    color: #29274E;
+    text-decoration: none;
+    font-size: 1rem;
+    
 }
 
 .photo-title-container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-left: 50px;
     margin-top: 80px;
-    width: 35%;
+    margin-bottom: 70px;
+    width: 100%;
 }
 
 .text-pages {
     color: #29274E;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 10px;
-    margin-bottom: 70px;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .pages-card-title {
@@ -296,21 +322,22 @@
 }
 
 .photo-pages-img {
-    width: 17rem;
+    width: 100%
 }
 
 .pages-card {
    display: flex;
-   flex-direction: row;
-}
+   flex-direction: column;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   }
+   
 
 .pages-card-text-container {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    margin-left: 20px;
-    width: 17rem;
-    height: 13.6rem;
+    margin-top: 20px;
 }
 
 .pages-cards-general-container {
@@ -318,9 +345,40 @@
     flex-wrap: wrap;
     margin-top: 10px;
     justify-content: center;
-    column-gap: 50px;
-    row-gap: 50px;
+    row-gap: 70px;
 }
+
+.photo-contact {
+    color: #000000;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.photo-contact-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.photo-contact-list li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.photo-derechos {
+    color: #000000;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+
 
 
 @media only screen and (min-width: 900px) {
@@ -333,6 +391,8 @@
     .index-header{
         height: 95vh;
     }
+
+    /*About me section*/
 
    .fotoperfil{
     width: 35rem;
@@ -372,7 +432,92 @@
     align-content: center;
     }
 
-  
+    /*Vision section*/
+
+    .vision-content{
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        gap: 70px;
+    }
+
+    .visionimg{
+        width: 25rem;
+    }
+
+    .text-vision{
+        font-size: 1.2rem;
+    }
+
+    /*Footer section*/
+
+    .index-footer-content{
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .index-footer-nav-content{
+    align-content: center;
+    gap: 200px;
+    }
+
+    .derechos{
+    margin-top: 50px;
+    }
+
+    /*PHOTOGRAPHY PAGE*/
+
+    .pages-card {
+   display: flex;
+   flex-direction: row;
+   margin-left: 10px;
+   margin-right: 10px;
+   }
+
+    .photo-pages-img {
+    width: 17rem;
+   }
+
+    .pages-card-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 17rem;
+    margin-top: 0rem;
+    }
+
+
+    .pages-cards-general-container {
+    display: flex;
+    flex-direction: row;
+    row-gap: 50px;
+    column-gap: 30px;
+    margin-top: 0rem;
+    }
+
+    .títulos-pages{
+    margin-left: 30px;
+    }
+
+    .text-pages {
+    margin-left: 30px;
+    }
+
+
+    
+
+
+
+
+
+
    
 }
 
