@@ -209,9 +209,10 @@ $text: 1rem;
 
     .pages-cards-general-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, max(35rem));
-    gap: 50px 60px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 50px 50px;
     margin-top: 0rem;
+    
  }
 
     .títulos-pages{
