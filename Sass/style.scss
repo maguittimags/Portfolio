@@ -24,9 +24,7 @@ $text: 1rem;
     font-size: $text;
     text-align: center;
     margin-top: 30px;
-    :hover {
-    background-color: $secondarycolor;
-    }
+
 }
 
 /*Estilos generales*/
@@ -171,8 +169,8 @@ $text: 1rem;
 .pagelink{
   display: inline-block;
   @extend .button;
-    
 }
+
 .card-title{
     color: #000000;
     font-size: $titles;

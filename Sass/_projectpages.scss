@@ -78,12 +78,15 @@ $text: 1rem;
     font-size: $text;
     margin-bottom: 10px;
 }
-.pages-card-show-more {
+
+
+.pages-card-show-more a {
     color: #000000;
     font-size: $text;
     justify-content: flex-end;
     margin-top: auto;
 }
+
 
 .photo-pages-img {
     @extend .pages-img;
