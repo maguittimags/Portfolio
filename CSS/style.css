@@ -67,11 +67,19 @@
   margin-bottom: 10px;
 }
 
+.pages-card-show-more {
+  margin-top: auto;
+}
+
 .pages-card-show-more a {
-  color: #000000;
+  color: #29274E;
   font-size: 1rem;
   justify-content: flex-end;
-  margin-top: auto;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.pages-card-show-more a:hover {
+  color: #989FCB;
 }
 
 .pages-card {
@@ -79,6 +87,8 @@
   flex-direction: column;
   margin-left: 1rem;
   margin-right: 1rem;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .pages-card-text-container {
@@ -86,6 +96,7 @@
   flex-direction: column;
   gap: 5px;
   margin-top: 20px;
+  flex: 1;
 }
 
 .pages-cards-general-container {
@@ -131,14 +142,22 @@
 .links-pages {
   color: black;
   text-decoration: none;
+  transition: color 0.3s ease;
+}
+.links-pages:hover {
+  color: #989FCB;
 }
 
 .showpdf-mkt {
-  color: black;
+  color: #29274E;
   text-decoration: none;
   font-size: 1rem;
   margin-left: 1rem;
   margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+.showpdf-mkt:hover {
+  color: #989FCB;
 }
 
 .line-graphic {
