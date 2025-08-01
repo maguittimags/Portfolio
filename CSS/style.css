@@ -233,6 +233,11 @@
   font-size: 1rem;
   text-align: center;
   margin-top: 30px;
+  transition: 0.3s ease;
+}
+.button:hover, .pagelink:hover {
+  background-color: #989FCB;
+  color: #29274E;
 }
 
 /*Estilos generales*/

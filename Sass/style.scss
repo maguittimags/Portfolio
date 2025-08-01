@@ -24,6 +24,12 @@ $text: 1rem;
     font-size: $text;
     text-align: center;
     margin-top: 30px;
+    transition: 0.3s ease;
+    &:hover {
+        background-color: $secondarycolor;
+        color: $terciarycolor;
+    }
+
 
 }
 
